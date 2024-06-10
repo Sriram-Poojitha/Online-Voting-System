@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <h1>Vote</h1>
+        </header>
+        <main>
+            <form action="vote" method="post">
+                <label for="candidate">Select Candidate:</label>
+                <select id="candidate" name="candidate">
+                    <option value="Candidate1">Candidate 1</option>
+                    <option value="Candidate2">Candidate 2</option>
+                    <option value="Candidate3">Candidate 3</option>
+                </select>
+                <button type="submit">Vote</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
